@@ -1,0 +1,178 @@
+🏆 TEAMS
+{'team_id': 1, 'team_name': 'Ithaca Flowers Bowers IPA', 'owners': 'Ryan Hilliard', 'wins': 7, 'losses': 7, 'points_for': 1409.0, 'points_against': 1495.0}
+{'team_id': 3, 'team_name': 'Team Boo-Boo', 'owners': 'Joseph Smith', 'wins': 3, 'losses': 11, 'points_for': 1396.0, 'points_against': 1514.0}
+{'team_id': 5, 'team_name': "Lily's Lawn Care Service", 'owners': 'Aran Kirwan', 'wins': 7, 'losses': 7, 'points_for': 1387.0, 'points_against': 1469.0}
+{'team_id': 6, 'team_name': 'Kickers Are Keepers Too', 'owners': 'carter tyzinski', 'wins': 7, 'losses': 7, 'points_for': 1373.0, 'points_against': 1377.0}
+{'team_id': 7, 'team_name': 'Viridian Forest Hornets', 'owners': 'Alan Sutterlin', 'wins': 8, 'losses': 6, 'points_for': 1422.0, 'points_against': 1478.0}
+{'team_id': 8, 'team_name': 'Maxwell Idiot', 'owners': 'Jane Sutterlin', 'wins': 8, 'losses': 6, 'points_for': 1517.0, 'points_against': 1406.0}
+{'team_id': 11, 'team_name': 'Bijan Mustard ', 'owners': 'Mike Krider, Michael Krider', 'wins': 6, 'losses': 8, 'points_for': 1433.0, 'points_against': 1389.0}
+{'team_id': 12, 'team_name': 'Little Lebowski Urban Achievers', 'owners': 'Cam Beaury', 'wins': 6, 'losses': 8, 'points_for': 1358.0, 'points_against': 1381.0}
+{'team_id': 13, 'team_name': 'Skykomish Football Team', 'owners': 'Matt Kenney', 'wins': 6, 'losses': 8, 'points_for': 1391.0, 'points_against': 1512.0}
+{'team_id': 14, 'team_name': "Vladimir's Round Table", 'owners': 'Collin Love', 'wins': 8, 'losses': 6, 'points_for': 1424.0, 'points_against': 1414.0}
+{'team_id': 15, 'team_name': 'Typical  Devo', 'owners': 'Devin  Fiorante, Devin  Fiorante', 'wins': 6, 'losses': 8, 'points_for': 1395.0, 'points_against': 1371.0}
+{'team_id': 16, 'team_name': '550 Bandits', 'owners': 'Will Pryor', 'wins': 12, 'losses': 2, 'points_for': 1665.0, 'points_against': 1364.0}
+
+🔍 LEAGUE ATTRIBUTES:
+['__abstractmethods__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_fetch_draft', '_fetch_league', '_fetch_players', '_fetch_teams', '_get_all_pro_schedule', '_get_positional_ratings', '_get_pro_schedule', 'box_scores', 'currentMatchupPeriod', 'current_week', 'draft', 'espn_request', 'fetch_league', 'finalScoringPeriod', 'firstScoringPeriod', 'free_agents', 'get_team_data', 'league_id', 'least_scored_week', 'least_scorer', 'load_roster_week', 'logger', 'members', 'message_board', 'most_points_against', 'nfl_week', 'player_info', 'player_map', 'power_rankings', 'previousSeasons', 'recent_activity', 'refresh', 'refresh_draft', 'scoreboard', 'scoringPeriodId', 'settings', 'standings', 'standings_weekly', 'teams', 'top_scored_week', 'top_scorer', 'transactions', 'year']
+
+🔍 TEAM OBJECT FIELDS:
+team_id: 1
+team_abbrev: HILL
+team_name: Ithaca Flowers Bowers IPA
+division_id: 0
+division_name: HAFFL
+wins: 7
+losses: 7
+ties: 0
+points_for: 1409.0
+points_against: 1495.0
+acquisitions: 25
+acquisition_budget_spent: 0
+drops: 24
+trades: 0
+move_to_ir: 5
+playoff_pct: 0
+draft_projected_rank: 6
+streak_length: 1
+streak_type: LOSS
+standing: 5
+final_standing: 1
+waiver_rank: 11
+logo_url: https://blacksportsonline.com/wp-content/uploads/2022/07/Zach-Wilson-Lisa-Best-Friend.jpg
+roster: [Player(CeeDee Lamb), Player(Patrick Mahomes), Player(Jayden Daniels), Player(Rachaad White), Player(Zay Flowers), Player(Brian Thomas Jr.), Player(Brock Bowers), Player(Ka'imi Fairbairn), Player(Bucky Irving), Player(Khalil Shakir), Player(Bills D/ST), Player(Tank Bigsby), Player(Jaylen Warren), Player(Kendre Miller), Player(Seahawks D/ST), Player(Spencer Rattler)]
+schedule: [Team(Viridian Forest Hornets), Team(Vladimir's Round Table), Team(Little Lebowski Urban Achievers), Team(550 Bandits), Team(Skykomish Football Team), Team(Bijan Mustard ), Team(Maxwell Idiot), Team(Team Boo-Boo), Team(Kickers Are Keepers Too), Team(Typical  Devo), Team(Lily's Lawn Care Service), Team(Skykomish Football Team), Team(Team Boo-Boo), Team(Kickers Are Keepers Too), Team(Viridian Forest Hornets), Team(550 Bandits), Team(Maxwell Idiot)]
+scores: [93.0, 110.0, 76.0, 74.0, 121.0, 89.0, 103.0, 120.0, 113.0, 76.0, 87.0, 117.0, 139.0, 91.0, 127.0, 142.0, 122.0]
+outcomes: ['L', 'W', 'W', 'L', 'W', 'L', 'W', 'W', 'L', 'L', 'L', 'W', 'W', 'L', 'W', 'W', 'W']
+mov: [-18.0, 4.0, 14.0, -11.0, 5.0, -35.0, 23.0, 9.0, -17.0, -54.0, -53.0, 42.0, 16.0, -11.0, 45.0, 7.0, 52.0]
+owners: [{'displayName': 'rhil1372', 'firstName': 'Ryan', 'id': '{A4AFDCA9-7B7A-4F6C-9930-80B8FE1A02B1}', 'lastName': 'Hilliard', 'notificationSettings': [{'enabled': True, 'id': 'dcf119d2-0c56-3944-a064-7683f35dfc02', 'type': 'TEAM_PLAYER_INJURY'}, {'enabled': True, 'id': 'c17e889c-443c-339f-b76c-28ca7d1b141c', 'type': 'TEAM_PLAYER_AVAILABILITY'}, {'enabled': True, 'id': '215f6f8b-c9b5-3223-b2ba-34f9fd2eb162', 'type': 'TEAM_PLAYER_NEWS'}, {'enabled': True, 'id': 'b9d4a8a1-01bb-3f30-991d-be60fb397b9a', 'type': 'TEAM_PLAYER_STARTBENCH'}, {'enabled': True, 'id': 'c81b3105-4200-3936-9143-ec6ddaf9d535', 'type': 'TEAM_TRADE_OFFER'}, {'enabled': True, 'id': '5a635a37-c345-3237-8069-115145b8c8d6', 'type': 'DRAFT'}, {'enabled': True, 'id': '2055e3d9-f464-3b80-b576-b01b79b470da', 'type': 'TEAM_MATCHUP_SCORE'}, {'enabled': True, 'id': '11caebaa-e74f-3467-ae8c-825f945a23e8', 'type': 'KEY_PLAY'}, {'enabled': True, 'id': '7373723c-92d0-3f61-8f58-50771c50d051', 'type': 'REDZONE'}, {'enabled': True, 'id': '32660946-b094-395c-8c38-f660a6ffdfd4', 'type': 'ADD_DROP'}, {'enabled': True, 'id': 'bbc58f8c-2402-3329-8568-afede425961d', 'type': 'WEEKLY_RECAP'}, {'enabled': True, 'id': '6aa2e295-35d8-359b-b309-fc0971b562f2', 'type': 'WAIVERS'}, {'enabled': True, 'id': '5b470c47-4a44-39bf-8a06-8bb1aea98eb4', 'type': 'CELEBRATION_SHARE'}]}]
+stats: {'defensiveLessThan100YardsAllowed': 0.0, 'defensive100To199YardsAllowed': 3.0, 'defensive200To299YardsAllowed': 3.0, 'passingTouchdowns': 51.0, 'defensive350To399YardsAllowed': 6.0, 'defensive400To449YardsAllowed': 0.0, 'defensive450To499YardsAllowed': 1.0, '198': 14.0, 'defensive500To549YardsAllowed': 1.0, '8': 294.0, 'lostFumbles': 6.0, 'defensive550PlusYardsAllowed': 0.0, 'madeFieldGoalsFrom60Plus': 0.0, 'madeFieldGoalsFrom40To49': 5.0, 'madeFieldGoalsFromUnder40': 20.0, 'passing2PtConversions': 2.0, 'passingInterceptions': 22.0, 'missedFieldGoals': 6.0, 'madeExtraPoints': 33.0, 'missedExtraPoints': 1.0, 'rushingTouchdowns': 20.0, 'defensive0PointsAllowed': 0.0, 'rushing2PtConversions': 1.0, 'defensive1To6PointsAllowed': 2.0, 'defensive7To13PointsAllowed': 2.0, '28': 254.0, 'defensive14To17PointsAllowed': 1.0, 'defensiveBlockedKickForTouchdowns': 0.0, 'defensiveInterceptions': 14.0, 'defensiveFumbles': 14.0, 'defensiveBlockedKicks': 3.0, 'defensiveSafeties': 0.0, 'defensiveSacks': 37.0, 'kickoffReturnTouchdowns': 0.0, 'puntReturnTouchdowns': 0.0, 'interceptionReturnTouchdowns': 2.0, 'fumbleReturnTouchdowns': 1.0, 'receivingTouchdowns': 28.0, 'receiving2PtConversions': 3.0, '48': 502.0, 'defensive28To34PointsAllowed': 1.0, 'defensive35To45PointsAllowed': 1.0, 'defensive45PlusPointsAllowed': 0.0, 'fumbleRecoveredForTD': 0.0}
+
+🔍 MATCHUP OBJECT FIELDS:
+matchup_type: NONE
+is_playoff: False
+home_team: Team(Skykomish Football Team)
+home_score: 98.0
+home_projected: 104.00999999999999
+home_lineup: [Player(Tyreek Hill, points:19.0, projected:12.12), Player(Ja'Marr Chase, points:6.0, projected:10.22), Player(Chris Olave, points:1.0, projected:10.38), Player(Marvin Harrison Jr., points:0.0, projected:9.29), Player(Mark Andrews, points:1.0, projected:7.62), Player(D'Andre Swift, points:5.0, projected:8.72), Player(Rhamondre Stevenson, points:18.0, projected:9.18), Player(Chris Godwin, points:14.0, projected:8.52), Player(Jaxon Smith-Njigba, points:1.0, projected:7.08), Player(Ezekiel Elliott, points:10.0, projected:7.19), Player(Jonathon Brooks, points:0.0, projected:0.0), Player(Dolphins D/ST, points:8.0, projected:6.88), Player(Greg Zuerlein, points:1.0, projected:7.77), Player(Baker Mayfield, points:29.0, projected:16.98), Player(Gardner Minshew, points:10.0, projected:14.14), Player(Miles Sanders, points:2.0, projected:5.24)]
+away_team: Team(Kickers Are Keepers Too)
+away_score: 131.0
+away_projected: 96.91000000000001
+away_lineup: [Player(Christian McCaffrey, points:0.0, projected:0.0), Player(Isiah Pacheco, points:13.0, projected:11.89), Player(Anthony Richardson, points:25.0, projected:18.17), Player(Davante Adams, points:5.0, projected:10.25), Player(George Kittle, points:4.0, projected:6.63), Player(DeVonta Smith, points:8.0, projected:8.35), Player(Najee Harris, points:7.0, projected:8.73), Player(Jordan Addison, points:3.0, projected:7.11), Player(Deshaun Watson, points:9.0, projected:16.17), Player(J.K. Dobbins, points:19.0, projected:8.21), Player(Cowboys D/ST, points:19.0, projected:6.94), Player(Gabe Davis, points:6.0, projected:6.02), Player(Brandon Aubrey, points:21.0, projected:7.81), Player(Dalton Schultz, points:1.0, projected:4.76), Player(Curtis Samuel, points:1.0, projected:6.52), Player(Jordan Mason, points:20.0, projected:1.97)]
+
+🔍 BOXPLAYER OBJECT FIELDS:
+name: Tyreek Hill
+playerId: 3116406
+posRank: []
+eligibleSlots: ['RB/WR', 'WR', 'WR/TE', 'RB/WR/TE', 'OP', 'BE', 'IR']
+acquisitionType: []
+proTeam: MIA
+injuryStatus: QUESTIONABLE
+onTeamId: 13
+lineupSlot: WR
+stats: {1: {'points': 19.0, 'breakdown': {'receivingReceptions': 7.0, 'receivingYards': 130.0, 'receivingTouchdowns': 1.0, 'receiving40PlusYardTD': 1.0, 'receiving50PlusYardTD': 1.0, '47': 26.0, '48': 13.0, '49': 6.0, '50': 5.0, '51': 2.0, '52': 1.0, '54': 1.0, 'receiving100To199YardGame': 1.0, 'receivingTargets': 12.0, 'receivingYardsAfterCatch': 84.0, 'receivingYardsPerReception': 18.571, 'puntReturnYards': 11.0, 'puntsReturned': 1.0, 'teamWin': 1.0, 'pointsScored': 6.0, '210': 1.0, '213': 4.0}, 'avg_points': 0, 'projected_points': 12.12, 'projected_breakdown': {'rushingAttempts': 0.246661657, 'rushingYards': 1.459829427, 'rushingTouchdowns': 0.014647674, 'rushing2PtConversions': 0.000654924, 'rushing40PlusYardTD': 0.000453386, 'rushing50PlusYardTD': 0.00031737, 'rushing100To199YardGame': 8.27e-05, 'rushing200PlusYardGame': 2.82e-06, 'rushingYardsPerAttempt': 5.918347612, 'receivingYards': 95.14092786, 'receivingTouchdowns': 0.514724163, 'receiving2PtConversions': 0.026985003, 'receiving40PlusYardTD': 0.019376519, 'receiving50PlusYardTD': 0.012662555, '47': 19.0, '48': 9.0, '49': 4.0, '50': 3.0, '51': 1.0, 'receivingReceptions': 6.907581807, 'receiving100To199YardGame': 0.401917892, 'receiving200PlusYardGame': 0.0124, 'receivingTargets': 10.27716053, 'receivingYardsPerReception': 13.77340588, '2PtConversions': 0.027639927, 'fumbleRecoveredForTD': 0.000456, '66': 0.003571242, '67': 0.10001007, 'fumbles': 0.103581312, '70': 0.001642772, '71': 0.056005639, 'lostFumbles': 0.057648411, 'turnovers': 0.057648411, '210': 1.0, '212': 0.197078708, '213': 4.340928045}, 'projected_avg_points': 0}}
+schedule: {}
+position: WR
+injured: False
+percent_owned: -1
+percent_started: -1
+active_status: active
+total_points: 0
+projected_total_points: 0
+avg_points: 0
+projected_avg_points: 0
+slot_position: WR
+pro_opponent: JAX
+pro_pos_rank: 30
+game_played: 100
+on_bye_week: False
+game_date: 2024-09-08 13:00:00
+points: 19.0
+points_breakdown: {'receivingReceptions': 7.0, 'receivingYards': 130.0, 'receivingTouchdowns': 1.0, 'receiving40PlusYardTD': 1.0, 'receiving50PlusYardTD': 1.0, '47': 26.0, '48': 13.0, '49': 6.0, '50': 5.0, '51': 2.0, '52': 1.0, '54': 1.0, 'receiving100To199YardGame': 1.0, 'receivingTargets': 12.0, 'receivingYardsAfterCatch': 84.0, 'receivingYardsPerReception': 18.571, 'puntReturnYards': 11.0, 'puntsReturned': 1.0, 'teamWin': 1.0, 'pointsScored': 6.0, '210': 1.0, '213': 4.0}
+projected_points: 12.12
+projected_breakdown: {'rushingAttempts': 0.246661657, 'rushingYards': 1.459829427, 'rushingTouchdowns': 0.014647674, 'rushing2PtConversions': 0.000654924, 'rushing40PlusYardTD': 0.000453386, 'rushing50PlusYardTD': 0.00031737, 'rushing100To199YardGame': 8.27e-05, 'rushing200PlusYardGame': 2.82e-06, 'rushingYardsPerAttempt': 5.918347612, 'receivingYards': 95.14092786, 'receivingTouchdowns': 0.514724163, 'receiving2PtConversions': 0.026985003, 'receiving40PlusYardTD': 0.019376519, 'receiving50PlusYardTD': 0.012662555, '47': 19.0, '48': 9.0, '49': 4.0, '50': 3.0, '51': 1.0, 'receivingReceptions': 6.907581807, 'receiving100To199YardGame': 0.401917892, 'receiving200PlusYardGame': 0.0124, 'receivingTargets': 10.27716053, 'receivingYardsPerReception': 13.77340588, '2PtConversions': 0.027639927, 'fumbleRecoveredForTD': 0.000456, '66': 0.003571242, '67': 0.10001007, 'fumbles': 0.103581312, '70': 0.001642772, '71': 0.056005639, 'lostFumbles': 0.057648411, 'turnovers': 0.057648411, '210': 1.0, '212': 0.197078708, '213': 4.340928045}
+
+📅 MATCHUPS
+{'week': 1, 'team_id': 13, 'opponent_id': 6, 'team_score': 98.0, 'opponent_score': 131.0}
+{'week': 1, 'team_id': 15, 'opponent_id': 5, 'team_score': 99.0, 'opponent_score': 113.0}
+{'week': 1, 'team_id': 16, 'opponent_id': 11, 'team_score': 122.0, 'opponent_score': 86.0}
+{'week': 1, 'team_id': 1, 'opponent_id': 7, 'team_score': 93.0, 'opponent_score': 111.0}
+{'week': 1, 'team_id': 12, 'opponent_id': 8, 'team_score': 61.0, 'opponent_score': 130.0}
+{'week': 1, 'team_id': 3, 'opponent_id': 14, 'team_score': 97.0, 'opponent_score': 84.0}
+{'week': 2, 'team_id': 6, 'opponent_id': 5, 'team_score': 116.0, 'opponent_score': 73.0}
+{'week': 2, 'team_id': 11, 'opponent_id': 13, 'team_score': 89.0, 'opponent_score': 91.0}
+{'week': 2, 'team_id': 7, 'opponent_id': 15, 'team_score': 56.0, 'opponent_score': 106.0}
+{'week': 2, 'team_id': 8, 'opponent_id': 16, 'team_score': 125.0, 'opponent_score': 110.0}
+{'week': 2, 'team_id': 14, 'opponent_id': 1, 'team_score': 106.0, 'opponent_score': 110.0}
+{'week': 2, 'team_id': 3, 'opponent_id': 12, 'team_score': 104.0, 'opponent_score': 109.0}
+{'week': 3, 'team_id': 11, 'opponent_id': 6, 'team_score': 94.0, 'opponent_score': 57.0}
+{'week': 3, 'team_id': 5, 'opponent_id': 7, 'team_score': 134.0, 'opponent_score': 120.0}
+{'week': 3, 'team_id': 13, 'opponent_id': 8, 'team_score': 77.0, 'opponent_score': 109.0}
+{'week': 3, 'team_id': 15, 'opponent_id': 14, 'team_score': 77.0, 'opponent_score': 112.0}
+{'week': 3, 'team_id': 16, 'opponent_id': 3, 'team_score': 147.0, 'opponent_score': 112.0}
+{'week': 3, 'team_id': 1, 'opponent_id': 12, 'team_score': 76.0, 'opponent_score': 62.0}
+{'week': 4, 'team_id': 6, 'opponent_id': 7, 'team_score': 92.0, 'opponent_score': 92.0}
+{'week': 4, 'team_id': 8, 'opponent_id': 11, 'team_score': 137.0, 'opponent_score': 128.0}
+{'week': 4, 'team_id': 14, 'opponent_id': 5, 'team_score': 113.0, 'opponent_score': 102.0}
+{'week': 4, 'team_id': 3, 'opponent_id': 13, 'team_score': 127.0, 'opponent_score': 100.0}
+{'week': 4, 'team_id': 12, 'opponent_id': 15, 'team_score': 69.0, 'opponent_score': 92.0}
+{'week': 4, 'team_id': 1, 'opponent_id': 16, 'team_score': 74.0, 'opponent_score': 85.0}
+{'week': 5, 'team_id': 8, 'opponent_id': 6, 'team_score': 113.0, 'opponent_score': 98.0}
+{'week': 5, 'team_id': 7, 'opponent_id': 14, 'team_score': 95.0, 'opponent_score': 103.0}
+{'week': 5, 'team_id': 11, 'opponent_id': 3, 'team_score': 112.0, 'opponent_score': 104.0}
+{'week': 5, 'team_id': 5, 'opponent_id': 12, 'team_score': 89.0, 'opponent_score': 104.0}
+{'week': 5, 'team_id': 13, 'opponent_id': 1, 'team_score': 116.0, 'opponent_score': 121.0}
+{'week': 5, 'team_id': 15, 'opponent_id': 16, 'team_score': 110.0, 'opponent_score': 125.0}
+{'week': 6, 'team_id': 6, 'opponent_id': 14, 'team_score': 118.0, 'opponent_score': 100.0}
+{'week': 6, 'team_id': 3, 'opponent_id': 8, 'team_score': 107.0, 'opponent_score': 94.0}
+{'week': 6, 'team_id': 12, 'opponent_id': 7, 'team_score': 88.0, 'opponent_score': 120.0}
+{'week': 6, 'team_id': 1, 'opponent_id': 11, 'team_score': 89.0, 'opponent_score': 124.0}
+{'week': 6, 'team_id': 16, 'opponent_id': 5, 'team_score': 107.0, 'opponent_score': 95.0}
+{'week': 6, 'team_id': 15, 'opponent_id': 13, 'team_score': 93.0, 'opponent_score': 104.0}
+{'week': 7, 'team_id': 3, 'opponent_id': 6, 'team_score': 88.0, 'opponent_score': 92.0}
+{'week': 7, 'team_id': 14, 'opponent_id': 12, 'team_score': 96.0, 'opponent_score': 92.0}
+{'week': 7, 'team_id': 8, 'opponent_id': 1, 'team_score': 80.0, 'opponent_score': 103.0}
+{'week': 7, 'team_id': 7, 'opponent_id': 16, 'team_score': 95.0, 'opponent_score': 129.0}
+{'week': 7, 'team_id': 11, 'opponent_id': 15, 'team_score': 127.0, 'opponent_score': 96.0}
+{'week': 7, 'team_id': 5, 'opponent_id': 13, 'team_score': 96.0, 'opponent_score': 92.0}
+{'week': 8, 'team_id': 6, 'opponent_id': 12, 'team_score': 98.0, 'opponent_score': 147.0}
+{'week': 8, 'team_id': 1, 'opponent_id': 3, 'team_score': 120.0, 'opponent_score': 111.0}
+{'week': 8, 'team_id': 16, 'opponent_id': 14, 'team_score': 139.0, 'opponent_score': 89.0}
+{'week': 8, 'team_id': 15, 'opponent_id': 8, 'team_score': 119.0, 'opponent_score': 102.0}
+{'week': 8, 'team_id': 13, 'opponent_id': 7, 'team_score': 123.0, 'opponent_score': 92.0}
+{'week': 8, 'team_id': 5, 'opponent_id': 11, 'team_score': 123.0, 'opponent_score': 94.0}
+{'week': 9, 'team_id': 1, 'opponent_id': 6, 'team_score': 113.0, 'opponent_score': 130.0}
+{'week': 9, 'team_id': 12, 'opponent_id': 16, 'team_score': 101.0, 'opponent_score': 108.0}
+{'week': 9, 'team_id': 3, 'opponent_id': 15, 'team_score': 64.0, 'opponent_score': 112.0}
+{'week': 9, 'team_id': 14, 'opponent_id': 13, 'team_score': 105.0, 'opponent_score': 78.0}
+{'week': 9, 'team_id': 8, 'opponent_id': 5, 'team_score': 112.0, 'opponent_score': 80.0}
+{'week': 9, 'team_id': 7, 'opponent_id': 11, 'team_score': 115.0, 'opponent_score': 109.0}
+{'week': 10, 'team_id': 6, 'opponent_id': 16, 'team_score': 77.0, 'opponent_score': 113.0}
+{'week': 10, 'team_id': 15, 'opponent_id': 1, 'team_score': 130.0, 'opponent_score': 76.0}
+{'week': 10, 'team_id': 13, 'opponent_id': 12, 'team_score': 105.0, 'opponent_score': 100.0}
+{'week': 10, 'team_id': 5, 'opponent_id': 3, 'team_score': 68.0, 'opponent_score': 57.0}
+{'week': 10, 'team_id': 11, 'opponent_id': 14, 'team_score': 102.0, 'opponent_score': 79.0}
+{'week': 10, 'team_id': 7, 'opponent_id': 8, 'team_score': 113.0, 'opponent_score': 97.0}
+{'week': 11, 'team_id': 15, 'opponent_id': 6, 'team_score': 76.0, 'opponent_score': 90.0}
+{'week': 11, 'team_id': 16, 'opponent_id': 13, 'team_score': 109.0, 'opponent_score': 117.0}
+{'week': 11, 'team_id': 1, 'opponent_id': 5, 'team_score': 87.0, 'opponent_score': 140.0}
+{'week': 11, 'team_id': 12, 'opponent_id': 11, 'team_score': 102.0, 'opponent_score': 57.0}
+{'week': 11, 'team_id': 3, 'opponent_id': 7, 'team_score': 132.0, 'opponent_score': 134.0}
+{'week': 11, 'team_id': 14, 'opponent_id': 8, 'team_score': 115.0, 'opponent_score': 93.0}
+{'week': 12, 'team_id': 7, 'opponent_id': 6, 'team_score': 93.0, 'opponent_score': 88.0}
+{'week': 12, 'team_id': 12, 'opponent_id': 16, 'team_score': 103.0, 'opponent_score': 122.0}
+{'week': 12, 'team_id': 8, 'opponent_id': 5, 'team_score': 150.0, 'opponent_score': 97.0}
+{'week': 12, 'team_id': 14, 'opponent_id': 3, 'team_score': 97.0, 'opponent_score': 72.0}
+{'week': 12, 'team_id': 15, 'opponent_id': 11, 'team_score': 93.0, 'opponent_score': 93.0}
+{'week': 12, 'team_id': 13, 'opponent_id': 1, 'team_score': 75.0, 'opponent_score': 117.0}
+{'week': 13, 'team_id': 1, 'opponent_id': 3, 'team_score': 139.0, 'opponent_score': 123.0}
+{'week': 13, 'team_id': 8, 'opponent_id': 15, 'team_score': 101.0, 'opponent_score': 92.0}
+{'week': 13, 'team_id': 5, 'opponent_id': 11, 'team_score': 71.0, 'opponent_score': 120.0}
+{'week': 13, 'team_id': 6, 'opponent_id': 12, 'team_score': 84.0, 'opponent_score': 86.0}
+{'week': 13, 'team_id': 13, 'opponent_id': 14, 'team_score': 105.0, 'opponent_score': 125.0}
+{'week': 13, 'team_id': 16, 'opponent_id': 7, 'team_score': 110.0, 'opponent_score': 80.0}
+{'week': 14, 'team_id': 13, 'opponent_id': 11, 'team_score': 110.0, 'opponent_score': 98.0}
+{'week': 14, 'team_id': 15, 'opponent_id': 16, 'team_score': 100.0, 'opponent_score': 139.0}
+{'week': 14, 'team_id': 8, 'opponent_id': 7, 'team_score': 74.0, 'opponent_score': 106.0}
+{'week': 14, 'team_id': 12, 'opponent_id': 14, 'team_score': 134.0, 'opponent_score': 100.0}
+{'week': 14, 'team_id': 3, 'opponent_id': 5, 'team_score': 98.0, 'opponent_score': 106.0}
+{'week': 14, 'team_id': 6, 'opponent_id': 1, 'team_score': 102.0, 'opponent_score': 91.0}
