@@ -2,7 +2,7 @@
 
 # 🏈 Fantasy Football BI System
 
-This is a full-stack Business Intelligence (BI) portfolio project that analyzes over a decade of ESPN fantasy football data to uncover trends, behaviors, and insights. It was built to demonstrate the complete BI skill set, from data architecture to predictive modeling, tailored to the expectations of roles like the Business Intelligence Specialist at the Smeal College of Business.
+This is a full-stack Business Intelligence (BI) portfolio project that analyzes over a decade of ESPN fantasy football data to uncover trends, behaviors, and insights. It was built to demonstrate the complete BI skill set, from data architecture to predictive modeling, tailored to the expectations of roles in Business Intelligence and Data Analysis.
 
 ---
 
@@ -11,10 +11,8 @@ This is a full-stack Business Intelligence (BI) portfolio project that analyzes 
 This project turns a fantasy football league into a modern BI system that supports:
 
 - Historical league analysis (2012–2024)
-- Predictive modeling (owner success, draft value)
+- Predictive modeling (draft value)
 - Executive dashboards and weekly storylines
-- Fun and engaging outputs like memes and trash talk
-
 ---
 
 ## 🎯 Business Intelligence Framework
@@ -72,9 +70,7 @@ See: [`docs/kpis_and_dashboards.md`](docs/kpis_and_dashboards.md)
 
 Example insights include:
 
-- Owners who always draft the same core players (Jalen Hurts + Joe Mixon)
-- "Streamer" teams vs "Loyalist" teams by consistency
-- Predicting owner success based on draft vs waivers
+- Predicting owner success based on draft
 - Positional draft trends over time (declining RB value, etc.)
 
 ---

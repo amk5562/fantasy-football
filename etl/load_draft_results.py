@@ -104,17 +104,22 @@ for year in get_valid_seasons():
                 pick_num = int(pick.round_pick)
                 player_id_db = str(player_id).strip()[:32] if player_id else "FA-unknown"
                 print(f"📦 Inserting: year={season_year}, team_id={team_id}, player_id={player_id_db} (type={type(player_id_db)}), round={round_num}, pick={pick_num}")
+                # Pull fantasy points (basic version — replace with actual logic if needed)
+                points = getattr(player, 'total_points', None)
+                if points is None:
+                    points = 0.0
 
                 cur.execute("""
                     INSERT OR REPLACE INTO draft_results (
-                        season_year, team_id, player_id, round, pick
-                    ) VALUES (?, ?, ?, ?, ?)
+                        season_year, team_id, player_id, round, pick, points
+                    ) VALUES (?, ?, ?, ?, ?, ?)
                 """, (
                     int(season_year),
                     int(team_id),
                     str(player_id_db),
                     int(round_num),
-                    int(pick_num)
+                    int(pick_num),
+                    float(points)
                 ))
 
                 if player_id_db is not None:

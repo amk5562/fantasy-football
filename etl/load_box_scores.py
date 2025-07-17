@@ -72,17 +72,15 @@ for season_year in get_valid_season_years():
             continue
 
         for matchup in box_scores:
-            for side, team in [('home', matchup.home_team), ('away', matchup.away_team)]:
-                lineup = getattr(matchup, f"{side}_lineup")
+            for side in ['home', 'away']:
+                lineup = getattr(matchup, f"{side}_lineup", [])
+                team = getattr(matchup, f"{side}_team", None)
                 for box_player in lineup:
                     slot_id = box_player.slot_position
-                    if isinstance(slot_id, str):
-                        slot_position = slot_id
-                    else:
-                        slot_position = SLOT_MAP.get(slot_id, "UNKNOWN")
+                    slot_position = SLOT_MAP.get(slot_id, "UNKNOWN") if isinstance(slot_id, int) else slot_id
                     points = box_player.points
                     projected_points = box_player.projected_points
-                    is_starter = slot_position not in ["BE", "IR", "Suspended", "Taxi"]
+                    is_starter = True  # Because we're iterating over lineup directly
 
                     cur.execute("""
                     INSERT OR REPLACE INTO box_scores (
@@ -91,7 +89,7 @@ for season_year in get_valid_season_years():
                     """, (
                         season_year,
                         week,
-                        team.team_id,
+                        team.team_id if team else None,
                         box_player.playerId,
                         slot_position,
                         points,

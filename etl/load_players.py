@@ -16,7 +16,9 @@ cur.execute("""
 CREATE TABLE IF NOT EXISTS players (
     player_id INTEGER PRIMARY KEY,
     name TEXT,
-    position TEXT
+    position TEXT,
+    pro_team TEXT,
+    is_rookie INTEGER DEFAULT 0
 )
 """)
 
@@ -34,14 +36,31 @@ for year in get_valid_seasons():
             if player.playerId not in seen:
                 seen.add(player.playerId)
                 cur.execute("""
-                INSERT OR IGNORE INTO players (player_id, name, position)
-                VALUES (?, ?, ?)
-                """, (
-                    player.playerId,
-                    player.name,
-                    player.position
-                ))
+INSERT OR IGNORE INTO players (player_id, name, position, pro_team, is_rookie)
+VALUES (?, ?, ?, ?, ?)
+""", (
+    player.playerId,
+    player.name,
+    player.position,
+    player.proTeam,
+    int(getattr(player, 'rookie', False))
+))
+                cur.execute("""
+UPDATE players
+SET pro_team = ?
+WHERE player_id = ?
+""", (
+    player.proTeam,
+    player.playerId
+))
                 year_count += 1
+            player_info = {
+    "player_id": player.playerId,
+    "name": player.name,
+    "position": player.position,
+    "pro_team": player.proTeam,
+    "is_rookie": int(getattr(player, 'rookie', False))
+}
     print(f"✅ Inserted {year_count} new players for season {year}")
     total_inserted += year_count
 
